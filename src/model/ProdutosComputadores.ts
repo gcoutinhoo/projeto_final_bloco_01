@@ -2,24 +2,20 @@ import { Produtos } from "./Produtos";
 
 export class ProdutosComputadores extends Produtos {
 
-        private _tipo: string;
+    private _notebook!: boolean;
 
-    constructor(tipo: string){
-        super();
-        this._tipo = tipo;
+    public get notebook(): boolean{
+        return this._notebook;
     }
-    public get tipo(){
-        return this._tipo;
-    }   
-    public set tipo(tipo: string){
-        this._tipo = tipo;
+
+    public set notebook(valor: boolean){
+        this._notebook = valor;
     }
 
     public visualizar(): void {
-    super.visualizar();
-    console.log("                                       ");
-    console.log(`Tipo do Computador: ${this._tipo}`);
-    console.log("                                       ");
-}
+        super.visualizar();
+        console.log(`Tipo: ${this._notebook ? "Notebook" : "Desktop"}`);
+    }
+
 
 }

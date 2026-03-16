@@ -2,23 +2,20 @@ import { Produtos } from "./Produtos";
 
 export class ProdutosPeriferico extends Produtos {
 
-    private _tipo: string;
+     private _bluetooth!: boolean;
 
-    constructor(tipo: string){
-        super();
-        this._tipo = tipo;
+    public get bluetooth(): boolean{
+        return this._bluetooth;
     }
-    public get tipo(){
-        return this._tipo;
-    }   
-    public set tipo(tipo: string){
-        this._tipo = tipo;
+
+    public set bluetooth(valor: boolean){
+        this._bluetooth = valor;
     }
 
     public visualizar(): void {
     super.visualizar();
     console.log("                                       ");
-    console.log(`Tipo do Periférico: ${this._tipo}`);
+    console.log(`Bluetooth: ${this._bluetooth? "Sim" : "Não"}`);
     console.log("                                       ");
 }
 
