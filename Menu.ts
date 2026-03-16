@@ -1,8 +1,23 @@
 import readlinesync from "readline-sync";
+import { Produtos  } from "./src/model/Produtos"; 
+import { ProdutosHardware } from "./src/model/ProdutosHardware";
+import { ProdutosComputadores } from "./src/model/ProdutosComputadores";
+import { ProdutosPeriferico } from "./src/model/ProdutosPreferico";
 
 export function main(){
 
+    //Teste
+    /*let produto = new ProdutosPeriferico("Mouse");
+    produto.id = 1;
+    produto.nome = "Mouse Gamer";
+    produto.preco = 150;
+    produto.quantidade = 10;
+    produto.categoria = "Periférico";
+    produto.tipo = "Mouse";
+
+    produto.visualizar();*/
     let opcao: number;
+
 
     while (true) {
         console.log("=======================================");
