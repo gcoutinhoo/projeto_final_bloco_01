@@ -20,9 +20,13 @@
   "homepage": "https://github.com/gcoutinhoo/projeto_final_bloco_01#readme",
   "dependencies": {
     "@types/node": "^25.5.0",
-    "readline-sync": "^1.4.10"
-  },
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.9.3"
+    },
   "devDependencies": {
     "@types/readline-sync": "^1.4.8"
-  }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
+
