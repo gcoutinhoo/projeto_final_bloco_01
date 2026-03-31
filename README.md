@@ -1,51 +1,47 @@
-# 📚 Atividades Generation JS14
+# 🚀 Projeto Final - Bloco 01
 
-## 📌 Sobre o repositório
-Este repositório reúne as atividades, exercícios e projetos desenvolvidos durante o bootcamp de JavaScript Full Stack da Generation Brasil.
+## 📌 Sobre o projeto
+Este projeto foi desenvolvido como projeto final do Bloco 01 do bootcamp da Generation Brasil.
 
-O objetivo é registrar minha evolução prática em programação, aplicando conceitos fundamentais e avançados no desenvolvimento de software.
+A aplicação simula um sistema com regras de negócio, com foco na prática de lógica de programação, Programação Orientada a Objetos (POO) e organização de código.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
-- JavaScript
-- TypeScript
+- JavaScript / TypeScript
 - Node.js
-- HTML
-- CSS
+- Programação Orientada a Objetos (POO)
+
+---
+
+## ⚙️ Funcionalidades
+- ✅ Implementação de regras de negócio  
+- ✅ Estruturação de classes e métodos  
+- ✅ Manipulação de dados  
+- ✅ Organização modular do código  
 
 ---
 
 ## 📂 Estrutura do projeto
-As atividades estão organizadas em pastas, cada uma representando conteúdos e exercícios específicos do curso, como:
+O projeto está organizado em arquivos e/ou pastas que representam:
 
-- Lógica de programação  
-- Programação Orientada a Objetos (POO)  
-- Manipulação de arrays e funções  
-- Estruturas condicionais e de repetição  
-- Introdução ao desenvolvimento web  
+- Entidades do sistema  
+- Lógica de negócio  
+- Execução principal da aplicação  
 
 ---
 
-## ⚙️ Conteúdos abordados
-- ✅ Variáveis e tipos de dados  
-- ✅ Estruturas condicionais (if/else)  
-- ✅ Laços de repetição (for, while)  
-- ✅ Funções  
-- ✅ Arrays e objetos  
-- ✅ Conceitos de POO  
-- ✅ Boas práticas de programação  
-
----
-
-## 🚀 Como executar os arquivos
+## 🚀 Como executar o projeto
 
 ```bash
-# clonar o repositório
-git clone https://github.com/gcoutinhoo/Atividades-Generation-JS14.git
+# clonar repositório
+git clone https://github.com/gcoutinhoo/projeto_final_bloco_01.git
 
 # acessar a pasta
-cd Atividades-Generation-JS14
+cd projeto_final_bloco_01
 
-# executar um arquivo (exemplo)
-node nome-do-arquivo.js
+# instalar dependências (se houver)
+npm install
+
+# executar o projeto
+npm start
